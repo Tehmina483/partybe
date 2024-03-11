@@ -214,7 +214,7 @@ animation-direction: alternate;
 }
 .hero-section-content{
     background-image:linear-gradient(#eeee);
-    background: url(img/hero-section2.png);
+    background: url(img/meena\ Chabal.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -373,7 +373,7 @@ animation-direction: alternate;
     justify-content: center;
     align-items:flex-start;
     gap: 50px;
-    padding: 60px 0px;
+    padding: 20px 0px;
 }
 .details-timing p{
     color: #1e1e1e;
@@ -1115,7 +1115,7 @@ opacity: 0;
     .details-section{
         flex-direction: column;
         gap: 15px;
-        padding-bottom: 30px;
+        padding: 10px 0px;
     }
     .details-main-heading{
         max-width: 100%;
@@ -1203,7 +1203,6 @@ opacity: 0;
         margin-left: 40px;
     }
     .dance-background{
-        height: 30vh;
         background-size: auto;
     }
 }
@@ -1293,15 +1292,16 @@ opacity: 0;
 }
 @media (max-width:390px) {
     .main-heading img{
-        width:100%;
+        width:70%;
     }
     .main-heading{
         margin-top: 50px;
     }
     .hero-section-content .main-heading h5{
-        width:100%;
         font-size: 60px;
+        font-weight: 900;
         line-height: 70px;
+        width: 200px;
     }
     .hero-section-content .main-content p{
         width: 100%;
@@ -1337,7 +1337,6 @@ opacity: 0;
         width: 150px;
     }
     .dance-background{
-        height: 40vh;
         background-size: auto;
     }
 }
